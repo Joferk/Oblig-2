@@ -132,7 +132,7 @@ public class KjedetMengde<T> implements MengdeADT<T> {
 	public boolean inneholder(T element) {
 		boolean funnet = false;
 		LinearNode<T> aktuell = start;
-		for (int søk = 0; søk < antall && !funnet; søk++) {
+		for (int sok = 0; sok < antall && !funnet; sok++) {
 			if (aktuell.getElement().equals(element)) {
 				funnet = true;
 			} else {
